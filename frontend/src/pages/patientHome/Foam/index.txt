@@ -1,0 +1,194 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const mongoose = require('mongoose');
+const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+const User = require('./models/user');
+
+const app = express();
+
+// Configure middleware
+app.use(bodyParser.json());
+app.use(cors());
+
+// Connect to MongoDB
+mongoose.connect('mongodb://localhost:27017/medlocate', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}).then(() => {
+  console.log('Connected to MongoDB');
+}).catch((err) => {
+  console.log(err);
+});
+
+// Create a user schema and model
+const userSchema = new mongoose.Schema({
+  email: {
+    type: String,
+    required: true,
+    unique: true
+  },
+  password: {
+    type: String,
+    required: true
+  },
+  name: {
+    type: String,
+    required: true
+  },
+  role: {
+    type: String,
+    enum: ['patient', 'pharmacy', 'admin'],
+    required: true
+  }
+});
+
+const User = mongoose.model('User', userSchema);
+
+// Create API endpoints for patient authentication
+app.post('/api/patient/signup', async (req, res) => {
+  try {
+    // Hash the password
+    const hashedPassword = await bcrypt.hash(req.body.password, 10);
+
+    // Create a new patient user
+    const user = new User({
+      email: req.body.email,
+      password: hashedPassword,
+      name: req.body.name,
+      role: 'patient'
+    });
+
+    // Save the user to the database
+    await user.save();
+
+    // Generate a JSON Web Token
+    const token = jwt.sign({ userId: user._id }, 'secret');
+
+    // Send the token back to the frontend
+    res.send({ token });
+  } catch (err) {
+    console.log(err);
+    res.status(500).send('Error signing up');
+  }
+});
+
+app.post('/api/patient/login', async (req, res) => {
+  try {
+    // Find the patient user by email
+    const user = await User.findOne({ email: req.body.email, role: 'patient' });
+
+    // Check if the user exists
+    if (!user) {
+      return res.status(404).send('User not found');
+    }
+
+    // Check if the password is correct
+    const isMatch = await bcrypt.compare(req.body.password, user.password);
+    if (!isMatch) {
+      return res.status(401).send('Invalid password');
+    }
+
+    // Generate a JSON Web Token
+    const token = jwt.sign({ userId: user._id }, 'secret');
+
+    // Send the token back to the frontend
+    res.send({ token });
+  } catch (err) {
+    console.log(err);
+    res.status(500).send('Error logging in');
+  }
+});
+
+// Create API endpoints for pharmacy authentication
+app.post('/api/pharmacy/signup', async (req, res) => {
+  try {
+    // Hash the password
+    const hashedPassword = await bcrypt.hash(req.body.password, 10);
+
+    // Create a new pharmacy user
+    const user = new User({
+      email: req.body.email,
+      password: hashedPassword,
+      name: req.body.name,
+      role: 'pharmacy'
+    });
+
+    // Save the user to the database
+    await user.save();
+
+    // Generate a JSON Web Token
+    const token = jwt.sign({ userId: user._id }, 'secret');
+
+    // Send the token back to the frontend
+    res.send({ token });
+  } catch (err) {
+    console.log(err);
+    res.status(500).send('Error signing up');
+  }
+});
+
+app.post('/api/pharmacy/login', async (req, res) => {
+  try {
+    // Find the pharmacy user by email
+    const user = await User.findOne({ email: req.body.email, role: 'pharmacy' });
+
+    // Check if the user exists
+    if (!user) {
+      return res.status(404).send('User not found');
+    }
+
+    // Check if the password is correct
+    const isMatch = await bcrypt.compare(req.body.password, user.password);
+    if (!isMatch) {
+      return res.status(401).send('Invalid password');
+    }
+
+    // Generate a JSON Web Token
+    const token = jwt.sign({ userId: user._id }, 'secret');
+
+    // Send the token back to the frontend
+    res.send({ token });
+  } catch (err) {
+    console.log(err);
+    res.status(500).send('Error logging in');
+  }
+});
+
+// Create an API endpoint for admin authentication
+app.post('/api/admin/login', async (req, res) => {
+  try {
+    // Find the admin user by email
+    constapp.post('/api/admin/login', async (req, res) => {
+  try {
+    // Find the admin user by email
+    const user = await User.findOne({ email: req.body.email, role: 'admin' });
+
+    // Check if the user exists
+    if (!user) {
+      return res.status(404).send('User not found');
+    }
+
+    // Check if the password is correct
+    const isMatch = await bcrypt.compare(req.body.password, user.password);
+    if (!isMatch) {
+      return res.status(401).send('Invalid password');
+    }
+
+    // Generate a JSON Web Token
+    const token = jwt.sign({ userId: user._id }, 'secret');
+
+    // Send the token back to the frontend
+    res.send({ token });
+  } catch (err) {
+    console.log(err);
+    res.status(500).send('Error logging in');
+  }
+});
+
+// Start the Express server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});

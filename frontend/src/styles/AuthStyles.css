@@ -1,0 +1,259 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+*/
+
+/* ===================================
+========= register page  */
+.form-container {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 70vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color:#17252A;
+  background-image: -webkit-gradient( linear, left top, left bottom, to(#3AAFA9));
+  background-image: -o-linear-gradient( #3AAFA9 100%);
+  background-image: linear-gradient( #3AAFA9 100%);
+}
+
+.form-container form {
+
+  -webkit-box-shadow: rgba(31, 26, 26, 0.35) 0px 5px 15px;
+
+          box-shadow: rgba(31, 26, 26, 0.35) 0px 5px 15px;
+  padding: 20px;
+  width: 400px;
+  border-radius: 05%;
+  border-left: 2px solid #3AAFA9;
+  border-right: 2px solid #3AAFA9;
+  
+}
+
+.form-container form .title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  margin-right: 20px;
+  color: #3AAFA9;
+}
+
+.form-container form input {
+  border: none;
+  border-bottom: 1px solid #3AAFA9;
+  border-radius: 4px;
+  background: transparent;
+}
+
+.AlreadyAccount{
+cursor: pointer;
+color: #fff;  
+-webkit-transition: 0.5s;  
+-o-transition: 0.5s;  
+transition: 0.5s;
+
+}
+.AlreadyAccount:hover{
+color: #3AAFA9;
+text-decoration: none;
+}
+
+.GoBackSignup{
+  cursor: pointer;
+color: #fff;  
+-webkit-transition: 0.5s;  
+-o-transition: 0.5s;  
+transition: 0.5s;
+}
+
+.GoBackSignup:hover{
+  color: #3AAFA9;
+  text-decoration: none;
+  }
+
+  .ForgotPass{
+    cursor: pointer;
+  color: #fff;  
+  -webkit-transition: 0.5s;  
+  -o-transition: 0.5s;  
+  transition: 0.5s;
+  }
+.ForgotPass:hover{
+  color: #3AAFA9;
+  text-decoration: none;
+  }
+
+
+
+
+.btnResgister{
+  border: 1px solid #3AAFA9;
+  background-color: #17252A;
+  border-radius: 10px;
+  color: white;
+  width: 250px;
+  margin-top: 10px;
+  height: 38px;
+  text-align: center;
+  margin-left: 45px;
+}
+
+.btnLogin{
+  border: 1px solid #3AAFA9;
+  background-color: #17252A;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  margin-top: 10px;
+  height: 38px;
+  margin-left: 68px;
+  
+}
+.btnReset{
+  border: 1px solid #3AAFA9;
+  background-color: #17252A;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  margin-top: 10px;
+  height: 38px;
+  margin-left: 68px;
+  
+}
+
+.form-container form button:hover {
+  border: 1px solid #17252A;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  background: #3AAFA9; 
+  background: -webkit-gradient(
+    linear,
+ 
+    left top, right top,
+ 
+    from(#3AAFA9)
+  ); 
+  background: -o-linear-gradient(
+    left,
+ 
+    #3AAFA9
+  ); 
+  background: linear-gradient(
+    to right,
+ 
+    #3AAFA9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.forgot-btn {
+  background-color: #3AAFA9 !important;
+  border: 0 !important;
+}
+
+.forgot-btn:hover {
+  color: white !important;
+}
+
+
+
+
+
+/* Responsive Styles for Navbar */
+@media (max-width: 991.98px) {
+  .navbar-expand-lg .navbar-nav {
+    margin-top: 0.5rem;
+  }
+
+  .navbar-expand-lg .navbar-brand {
+    margin-right: 0.5rem;
+  }
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #17252a; /* Black background */
+  margin-right: 0.5px;
+  border-top-right-radius: 7px;
+}
+
+.navbar-toggler {
+  color: #b62626; /* White text color */
+  border-color: #5ac9d8; /* White border color */
+}
+
+.navbar-toggler-icon {
+  background-color: #fff; /* White icon color */
+}
+
+.navbar-nav .nav-item {
+  margin-right: 1rem;
+}
+
+/* Brand Styles */
+.navbar-brand span {
+  font-weight: bold;
+}
+
+.navbar-brand span:first-child {
+  color: #fff; /* White text color */
+}
+
+.navbar-brand span:last-child {
+  color: #3aafa9; /* Green text color */
+}
+
+/* Nav Link Styles with Icon */
+.navbar-nav .nav-link {
+  color: #fff !important; /* White text color */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-nav .nav-link i {
+  margin-right: 0.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #3aafa9 !important; /* Green hover text color */
+}
+
+/* Dropdown Menu Styles with Icon */
+
+.dropdown-menu {
+  background-color: #17252a; /* Black background */
+}
+
+.dropdown-item {
+  color: #fff !important; /* White text color */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dropdown-item i {
+  margin-right: 0.5rem;
+}
+
+.dropdown-item:hover {
+  background-color: #3aafa9; /* Green hover background color */
+  color: #fff !important; /* White hover text color */
+}

@@ -1,0 +1,108 @@
+
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a modern and professional font family */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Add a subtle background color and set default text color */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.feather-title-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; /* Add this line to center the text */
+    }
+/* Style the section with a shadow for a card-like appearance */
+.feather-solution-we-offer {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Add a responsive margin for better spacing */
+.feather-container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Style the heading for a professional look */
+.feather-title-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style each solution box as a card */
+.feather-solution-box {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: calc(25% - 20px);
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Hover effect for each solution box */
+.feather-solution-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Style the solution icons for consistency */
+.feather-solution-icon {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the solution headings for a clean and professional look */
+.feather-solution-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Add subtle border for separation */
+.feather-solution-box:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the paragraphs for better readability */
+.feather-solution-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+/* Add spacing for responsiveness */
+@media (max-width: 768px) {
+    .feather-solution-box {
+        margin: 0 -10px;
+        width: 100%;
+    }
+
+    .feather-solution-box,
+    .feather-solution-heading,
+    .feather-solution-paragraph {
+        text-align: center;
+    }
+} 

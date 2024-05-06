@@ -1,0 +1,21 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    /* Sidebar and MessageContainer displayed side by side */
+    height: 100vh;
+    /* Full height of the viewport */
+}
+
+/* Adjust width of Sidebar and MessageContainer */
+/* You may adjust these values based on your design requirements */
+.sidebar {
+    flex: 1;
+    /* Sidebar takes up 1 part of available space */
+    max-width: 300px;
+    /* Adjust based on your design */
+}
+
+.message-container {
+    flex: 3;
+    /* MessageContainer takes up 3 parts of available space */
+}

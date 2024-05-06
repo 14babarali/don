@@ -1,0 +1,46 @@
+/* Define the style for the section element with the class main-area */
+.main-area {
+  background-color: #f0f0f0; /* Set the background color to light gray */
+  padding: 40px 0; /* Set the top and bottom padding to 40px */
+}
+
+/* Define the style for the prof-web-success-points class */
+.prof-web-success-points {
+  background-color: #3AAFA9; /* Set the background color to teal */
+  color: #FFFFFF; /* Set the text color to white */
+  border-radius: 10px; /* Set the border radius to 10px */
+  margin: 20px; /* Set the margin to 20px */
+}
+
+/* Define the style for the d-flex class */
+.d-flex {
+  display: flex; /* Display the element as a flex container */
+}
+
+/* Define the style for the flex-grow-1 class */
+.flex-grow-1 {
+  flex-grow: 1; /* Set the flex grow factor to 1 */
+}
+
+/* Define the style for the text-center class */
+.text-center {
+  text-align: center; /* Align the text to the center */
+}
+
+/* Define the style for the border-right class */
+.border-right {
+  border-right: 1px solid #FFFFFF; /* Set the right border color to white */
+}
+
+/* Define the style for the success-points-number class */
+.success-points-number {
+  font-family: 'Roboto', sans-serif; /* Set the font family to Roboto */
+  font-size: 36px; /* Set the font size to 36px */
+  font-weight: bold; /* Set the font weight to bold */
+}
+
+/* Define the style for the success-point-title class */
+.success-point-title {
+  font-family: 'Roboto', sans-serif; /* Set the font family to Roboto */
+  font-size: 18px; /* Set the font size to 18px */
+}

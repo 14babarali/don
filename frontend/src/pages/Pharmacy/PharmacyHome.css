@@ -1,0 +1,78 @@
+/* styles.css */
+
+.card {
+  margin: 2px;
+  width: 40%;
+  padding: 5px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.icon {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #3AAFA9;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+  align-items: center;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.yesButton {
+  background-color: #3AAFA9;
+  color: #fff;
+  font-weight: bold;
+}
+
+.noButton {
+  background-color: #17252A;
+  color: #fff;
+  font-weight: bold;
+}
+
+.centeredView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.modalView {
+  margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 35px;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fullScreenImage {
+  width: 100%;
+  height: 50%;
+}
+
+.buttonClose {
+  background-color: #2196F3;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}

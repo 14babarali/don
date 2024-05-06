@@ -1,0 +1,58 @@
+.notification-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* translucent background */
+}
+
+.popup-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content {
+  max-width: 400px;
+}
+
+.popup-list {
+  list-style: none;
+  padding: 0;
+}
+
+.popup-item {
+  margin-bottom: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}

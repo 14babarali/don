@@ -1,0 +1,71 @@
+
+        .medcontainer {
+            display: flex;
+            justify-content: center;
+            background-color: #ffffff; /* Main container background color */
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-column {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .r-column {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .l-content img {
+            max-width: 100%;
+            margin-top: 80px;
+            height: auto;
+            display: block;
+        }
+
+        .r-content {
+            text-align: left;
+        }
+
+        .right-content h1 {
+            font-weight: bold;
+        }
+
+        .r-content .icon {
+            font-size: 24px;
+        }
+
+        .r-content input[type="text"],
+        .r-content textarea {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .r-content .input-field {
+            margin-top: 20px;
+        }
+
+        .r-content .get-consultation-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3AAFA9; /* Button background color */
+            color: #ffffff; /* Button text color */
+            font-weight: bold;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .r-content .get-consultation-button:hover {
+            background-color: #17252A; /* Hover background color */
+        }
+ 
+        

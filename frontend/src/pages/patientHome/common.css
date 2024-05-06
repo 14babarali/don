@@ -1,0 +1,260 @@
+.submit-button {
+    background-color: #3AAFA9 !important;
+}
+
+/* Add custom CSS styles here, if needed */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+
+  }
+  
+  body {
+    overflow: auto;
+  }
+  
+  /* Right-side pane */
+  .right-side-pane {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .right-side-pane p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form groups */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-control i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #ccc;
+    font-size: 18px;
+  }
+  
+  /* Primary button */
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  /* Main area */
+  .main-area {
+    padding: 20px;
+  }
+  
+  /* Map container */
+  .map-cont h3 {
+    font-size: 24px;
+  }
+  
+  .container h5 {
+    font-size: 18px;
+  }
+  
+  .col-md-6 {
+    margin-top: 20px;
+  }
+  
+  /* Contact form */
+  .contact-form-cont h4 {
+    font-size: 20px;
+  }
+  
+  .form-outer {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .form-outer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form inputs and textarea */
+  .wpcf7-form input[type="text"],
+  .wpcf7-form input[type="email"],
+  .wpcf7-form input[type="tel"],
+  .wpcf7-form input[type="text"],
+  .wpcf7-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Submit button */
+  .wpcf7-form .wpcf7-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  /* Additional details */
+  .form-bottom h5 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+.right-side-pane {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .right-side-pane p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .form-control i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #ccc;
+    font-size: 18px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .main-area {
+    padding: 20px;
+  }
+  
+  .map-cont h3 {
+    font-size: 24px;
+  }
+  
+  .container h5 {
+    font-size: 18px;
+  }
+  
+  .col-md-6 {
+    margin-top: 20px;
+  }
+  
+  .contact-form-cont h4 {
+    font-size: 20px;
+  }
+  
+  .form-outer {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .form-outer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .wpcf7-form {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .wpcf7-form input[type="text"],
+  .wpcf7-form input[type="email"],
+  .wpcf7-form input[type="tel"],
+  .wpcf7-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .wpcf7-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .wpcf7-form .wpcf7-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .form-bottom h5 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* You can customize the styles further if needed */
+  

@@ -1,0 +1,204 @@
+/* MessagePage.css */
+.message-page-container {
+    background-color: #17252A;
+    color: #17252A;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.sidebar-message-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 1rem;
+}
+
+.sidebar {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+.message-container {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+
+/* Sidebar.css */
+.sidebar-container {
+    background-color: #FFFFFF;
+    color: #17252A;
+    border-color: #17252A;
+    padding: 1rem;
+}
+
+.search-form {
+    background-color: #3AAFA9;
+    border-radius: 25px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.search-form input {
+    border: none;
+    background-color: #FFFFFF;
+    color: #17252A;
+    padding: 0.5rem;
+}
+
+.search-form button {
+    background-color: #3AAFA9;
+    border: none;
+    color: #FFFFFF;
+    padding: 0.5rem;
+}
+
+.logout-button {
+    background-color: #17252A;
+    color: #FFFFFF;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+
+
+/* MessageContainer.css */
+.message-container {
+    background-color: #FFFFFF;
+    color: #17252A;
+    padding: 1rem;
+}
+
+.user-profile {
+    background-color: #3AAFA9;
+    color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+}
+
+.user-profile img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.no-selected-user {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* OtherUsers.css */
+.other-users-container {
+    background-color: #FFFFFF;
+    color: #17252A;
+    padding: 1rem;
+}
+
+.other-user {
+    background-color: #3AAFA9;
+    color: #FFFFFF;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+
+/* OtherUser.css */
+.other-user-container {
+    background-color: #FFFFFF;
+    color: #17252A;
+    padding: 1rem;
+}
+
+.selected-user {
+    background-color: #3AAFA9;
+    color: #FFFFFF;
+}
+
+.online-status {
+    background-color: #17252A;
+}
+
+.profile-photo {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+/* Messages.css */
+.messages-container {
+    background-color: #FFFFFF;
+    color: #17252A;
+    padding: 1rem;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.message-bubble {
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sender-message {
+    background-color: #3AAFA9;
+    color: #FFFFFF;
+}
+
+.receiver-message {
+    background-color: #FFFFFF;
+    color: #17252A;
+}
+
+/* Message.css */
+.message-container {
+    background-color: #FFFFFF;
+    color: #17252A;
+    padding: 1rem;
+}
+
+.message-bubble {
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.sender-message {
+    background-color: #3AAFA9;
+    color: #FFFFFF;
+}
+
+.receiver-message {
+    background-color: #FFFFFF;
+    color: #17252A;
+}
+
+/* SendInput.css */
+.send-input-container {
+    background-color: #FFFFFF;
+    color: #17252A;
+    padding: 1rem;
+}
+
+.input-field {
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #17252A;
+    color: #FFFFFF;
+    border: none;
+    width: 100%;
+}
+
+.send-button {
+    background-color: #3AAFA9;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}

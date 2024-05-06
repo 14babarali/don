@@ -1,0 +1,1161 @@
+/* Add this CSS to your existing stylesheet or create a new one */
+
+.containerss {
+  padding: 20px;
+  background-color: #ffffff;
+  color: #17252a;
+  overflow: auto;
+}
+.bg-17252a { 
+  color: #ffffff !important;
+  background-color: #17252a !important;
+}
+.copyright-text{
+  background-color: #17252a !important;
+}
+
+/* Section Styles */
+section {
+  margin-top: 30px;
+}
+
+h1, h2, h5 {
+  color: #3aafa9;
+}
+
+/* Contact Form Styles */
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #3aafa9;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.btn-primary {
+  background-color: #3aafa9;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #265d5c;
+}
+
+/* Our Commitment and Server Benefits Styles */
+p {
+  line-height: 1.6;
+}
+
+/* Card Styles */
+.card {
+  margin-bottom: 20px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-body i {
+  font-size: 30px;
+  color: #3aafa9;
+}
+
+.card-body h5 {
+  margin-top: 10px;
+  color: #17252a;
+}
+
+/* Why Choose MedLocate Styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.fa-check {
+  color: #3aafa9;
+  margin-right: 5px;
+}
+
+
+/* chat.css */
+
+/* containers Styles */
+.containers {
+  padding: 20px;
+  background-color: #ffffff;
+  color: #17252a;
+}
+
+/* Page Title Styles */
+.page-title {
+  margin-top: 30px;
+}
+
+.title {
+  color: #3aafa9;
+}
+
+/* Users containers Styles */
+.users-containers {
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chat-search-box {
+  margin-bottom: 15px;
+}
+
+.users {
+  list-style: none;
+  padding: 0;
+}
+
+.person {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.person:hover {
+  background-color: #e1e1e1;
+}
+
+.person img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.person.active-user {
+  background-color: #3aafa9;
+  color: #ffffff;
+}
+
+/* Selected User Styles */
+.selected-user {
+  margin-bottom: 15px;
+}
+
+/* Chat containers Styles */
+.chat-containers {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+/* Chat Box Styles */
+.chat-box {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Chat Message Styles */
+.chat-left,
+.chat-right {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.chat-left {
+  justify-content: flex-start;
+}
+
+.chat-right {
+  justify-content: flex-end;
+}
+
+.chat-avatar {
+  margin-right: 10px;
+}
+
+.chat-text {
+  max-width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.chat-left .chat-text {
+  background-color: #e1e1e1;
+}
+
+.chat-right .chat-text {
+  background-color: #3aafa9;
+  color: #ffffff;
+}
+
+.chat-hour {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+/* Input Textarea Styles */
+.form-group {
+  margin-top: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #3aafa9;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+/* Bootstrap Styles */
+.btn-info {
+  background-color: #3aafa9;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #265d5c;
+}
+
+
+
+
+/* Add your existing styles */
+.medicine-info-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.medicine-info-section h2 {
+  color: #f3ebeb;
+}
+
+.medicine-info-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.medicine-info-section li {
+  margin-bottom: 10px;
+  color: #f1eeee;
+}
+
+/* Add more styles as needed */
+
+/* Style for the form */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Add more form styles as needed */
+
+.containers {
+  position: relative;
+  text-align: center;
+}
+
+#rectangleImage {
+  width: 100%;
+  height: auto;
+}
+
+#services {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.heading-1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.heading-2 {
+  font-size: 24px;
+}
+
+/* You can add more styles as needed */
+
+/* Add your global styles here if needed */
+
+/* Styles for the Benefits component */
+.medician-all-section {
+  padding: 60px 0;
+}
+
+.prof-web-design-section-heading {
+  margin-bottom: 30px;
+}
+
+/* .white-label-box {
+ 
+  border: 1px solid #e0e0e0;
+  padding: 30px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+} */
+
+/* .white-label-box:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+} */
+
+/* .white-label-img-box {
+  margin-bottom: 20px;
+}
+
+.white-label-img-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.white-label-box-heading {
+  font-size: 17px;
+  font-weight: 600;
+  color: #e9e0e0;
+  margin-bottom: 10px;
+} */
+
+.text-light-gray {
+  color: #eeebeb;
+}
+
+/* You can add more styles as needed */
+
+
+/* Add your global styles here if needed */
+
+/* Styles for the Delivery component */
+.section-p40 {
+  padding: 40px 0;
+}
+
+.main-area {
+  background-color: #c42121;
+}
+
+.prof-web-success-points {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.success-points-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.success-point-title {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.prof-web-design-section-heading {
+  margin-bottom: 30px;
+}
+
+.healthcare-img-wrapper {
+  margin-right: 20px;
+}
+
+.healthcare-img-wrapper img {
+  border-radius: 8px;
+}
+
+.car-pool-wrapper-content {
+  flex-grow: 1;
+}
+
+.car-pool-wrapper-content h3 {
+  color: #3AAFA9;
+}
+
+.car-pool-wrapper-content p {
+  color: #f7f4f4;
+}
+
+/* You can add more styles as needed */
+
+
+
+/* Styles for the FAQs component */
+.our-success-stories {
+  padding: 40px 0;
+  background-color: #f8f8f8;
+}
+
+.common-que-asked-heading {
+  margin-bottom: 30px;
+}
+
+.common-que-asked-heading h2 {
+  color: #3AAFA9;
+}
+
+.common-que-asked-heading p {
+  color: #555555;
+}
+
+.panel-que-ans {
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+}
+
+.panel-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #3AAFA9;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.panel-title .badge-que-ans {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.panel-title a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.panel-title a:hover {
+  text-decoration: underline;
+}
+
+.que-ans-wrapper-content {
+  padding: 20px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* You can add more styles as needed */
+
+/* Styles for the Feather component */
+.solution-we-offer {
+  background-color: #f8f8f8;
+  padding: 60px 0;
+}
+
+.title-heading {
+  color: #3AAFA9;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.solution-offer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.solution-box {
+  flex-basis: 23%;
+  margin: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px dashed #dddddd;
+  text-align: center;
+}
+
+.solution-box img {
+  width: 50px; /* Set the appropriate size for your icons */
+}
+
+.solution-icon-heading h4 {
+  color: #f1eded;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.solution-icon-heading p {
+  color: #f5f1f1;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add more global styles as needed */
+
+
+/* settings.css */
+
+.containers {
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+/* Adjust styling as needed */
+
+/* profile.css */
+
+.containers {
+  max-width: 800px;
+  margin: auto;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+/* Adjust styling as needed */
+
+/* prescriptionWork.css */
+
+/* Add global styles if needed */
+
+/* Main area styling */
+.main-area {
+  padding: 50px 0;
+}
+
+/* Section heading styling */
+.prof-web-design-section-heading h2 {
+  color: #007bff;
+  font-size: 2rem;
+}
+
+/* Paragraph styling */
+.roboto-fon {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* About image styling */
+.on-demand-food-app-work-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mission and promise section styling */
+.on-demand-app-work-step {
+  margin-bottom: 20px;
+}
+
+.on-demans-app-rigt h4 {
+  color: #007bff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Add more specific styles based on your component structure */
+
+/* styles.css */
+
+/* Global styles (if needed) */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Styles for the main app containers */
+.app {
+  padding: 20px;
+}
+
+/* Styles for the containers with class c-IkEYc */
+.c-IkEYc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Styles for the medcontainers */
+.medcontainers {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* Styles for the left column in medcontainers */
+.l-column {
+  flex: 1;
+}
+
+.l-content {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styles for the right column in medcontainers */
+.r-column {
+  flex: 1;
+}
+
+.r-content {
+  max-width: 100%;
+}
+
+/* Styles for form elements */
+.input-field {
+  margin-bottom: 15px;
+}
+
+/* Styles for the form button */
+.get-consultation-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Add more specific styles based on your component structure */
+
+
+
+/* Add this CSS to your styling */
+.pharmacy-box {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.pharmacy-box-wrapper {
+  flex-direction: column;
+}
+
+.pharmacy-box-img {
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Add your global styles here if needed */
+
+.medcontainers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.l-column,
+.r-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.l-content img {
+  width: 100%;
+  height: auto;
+}
+
+.r-content {
+  max-width: 400px;
+}
+
+h1 {
+  color: #3AAFA9;
+}
+
+.company,
+.your-name,
+.phone-number,
+.email,
+.project-detail {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.get-consultation-button {
+  background-color: #3AAFA9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Add more styles based on your design needs */
+
+/* Add this CSS to your component or a separate stylesheet */
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  margin-bottom: 4px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Add this CSS to your component or a separate stylesheet */
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+/* Add more styles as needed */
+
+
+/* Add this CSS to your component or a separate stylesheet */
+
+.medcontainers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.l-column,
+.r-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.l-content img {
+  width: 100%;
+  height: auto;
+}
+
+.r-content {
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.company,
+.your-name,
+.phone-number,
+.email,
+.project-detail {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.input-field {
+  margin-bottom: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button.get-consultation-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button.get-consultation-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add more styles as needed */
+
+
+/* Styles for the Feedback component */
+.section-p40 {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+.prof-web-design-section-heading {
+  margin-bottom: 30px;
+}
+
+.title-heading {
+  color: #3AAFA9;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.prof-client-box {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.prof-client-box img {
+  width: 50px; /* Set the appropriate size for your icons */
+}
+
+.prof-client-box p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f5eded;
+  margin-bottom: 20px;
+}
+
+.prof-client-img img {
+  width: 80px; /* Set the appropriate size for your client images */
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.prof-client-name {
+  color: #e7dede;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.prof-web-rating ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.prof-web-rating li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.prof-web-rating i {
+  color: #FFD700; /* Set the color for the star icons */
+}
+
+
+
+/* Add this CSS to your component or a separate stylesheet */
+
+
+.text-center {
+    text-align: center;
+  }
+  
+  .font-weight-bold {
+    font-weight: bold;
+  }
+  
+  .text-large {
+    font-size: large;
+  }
+  
+  .containers {
+    margin-top: 20px;
+  }
+  
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add more styles as needed */
+  /* Footer Styles */
+
+/* Fixed Quick Links Styles */
+.fixed-quick-links {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fixed-quick-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.message,
+.whatsapp-call {
+  text-decoration: none;
+  color: #3aafa9;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.message:hover,
+.whatsapp-call:hover {
+  background-color: #3aafa9;
+  color: #ffffff;
+}
+
+/* Main Footer Styles */
+.main-area {
+  padding: 20px;
+  background-color: #17252a;
+  color: #ffffff;
+}
+
+/* Quick Links Styles */
+.quick-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.quick-links ul li:last-child {
+  margin-right: 0;
+}
+
+.quick-links a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+  color: #3aafa9;
+}
+
+/* Social Media Icons Styles */
+.quick-links ul:last-child {
+  margin-top: 20px;
+}
+
+.quick-links ul:last-child li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.quick-links ul:last-child li:last-child {
+  margin-right: 0;
+}
+
+.quick-links ul:last-child a {
+  font-size: 20px;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.quick-links ul:last-child a:hover {
+  color: #3aafa9;
+}
+
+/* Footer Bottom Styles */
+.footer-bottom {
+  padding: 10px 0;
+}
+
+.copyright-text {
+  color: #ffffff;
+}
+
+/* Additional Styles as needed */
+/* Common CSS for AboutUs Component */
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #3aafa9;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.btn-primary {
+  background-color: #3aafa9;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #265d5c;
+}
+
+/* Main Area Styles */
+.main-area {
+  padding: 20px;
+  background-color: #ffffff;
+  color: #17252a;
+}
+
+/* Contact Page Styles */
+.contact-page {
+  margin-top: 30px;
+}
+
+.map-cont {
+  margin-bottom: 30px;
+}
+
+/* Additional Styles as needed */

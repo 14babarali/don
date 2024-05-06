@@ -1,0 +1,54 @@
+/* ./FAQs.css */
+
+/* Your CSS styles for the layout */
+.maindivfaq {
+    display: flex;
+  }
+  
+  .lefthalfdiv {
+    flex: 1; /* The left half takes up 50% of the width */
+    background-color: #f0f0f0; /* Example background color, customize as needed */
+    padding: 20px; /* Example padding, customize as needed */
+  }
+  
+  .righthalfdiv {
+    flex: 1; /* The right half takes up 50% of the width */
+    background-color: #e0e0e0; /* Example background color, customize as needed */
+    padding: 20px; /* Example padding, customize as needed */
+  }
+  
+  /* Optional: Add more styles as needed */
+  
+
+/* Updated grid layout for FAQ items */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Set the width of each column on larger screens */
+  @media (min-width: 768px) {
+    .col-lg-6 {
+      flex: 0 0 48%; /* Adjust the width as needed */
+      max-width: 48%;
+    }
+  }
+  
+  .que-ans-wrapper-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .panel-que-ans {
+    margin-bottom: 10px;
+  }
+  
+  .panel-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Add more Flexbox styling or Bootstrap classes as needed */
+  

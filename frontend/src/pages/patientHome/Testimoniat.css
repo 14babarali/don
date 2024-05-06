@@ -1,0 +1,42 @@
+/* Testimonial.css */
+
+.testimonials-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Adjust as needed */
+  }
+  
+  .testimonial-card {
+    flex: 1;
+    max-width: 350px; /* Adjust as needed */
+    margin: 10px 20px; /* Adjust margin for both sides */
+    padding: 20px; /* Adjust padding for both sides */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .testimonial-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .testimonial-position {
+    margin: 5px 0;
+    color: #888;
+  }
+  
+  .testimonial-text {
+    margin: 10px 0;
+  }
+  

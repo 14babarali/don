@@ -1,0 +1,15 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+    background-color: #fff;
+    color: #17252A;
+    /* Add any additional custom styles here */
+}
+
+/* Style the active link */
+.nav-link.active {
+    background-color: #3AAFA9;
+    color: #fff;
+}
+
+

@@ -1,0 +1,13 @@
+.dashboard-menu {
+    background-color: #FFFF;
+  }
+  
+  .dashboard-menu .list-group-item {
+    color: #17252A;
+  }
+  
+  .dashboard-menu .list-group-item:hover {
+    background-color: #3AAFA9;
+  }
+/*   
+  #17252A ,#3AAFA9,#FFFF */

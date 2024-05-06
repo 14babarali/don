@@ -1,0 +1,41 @@
+/* Help.css */
+body{
+  
+}
+/* Add or modify styles as needed */
+
+.help-container {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 20px;
+    border-left: 2px solid #3aafa9;
+    border-right: 2px solid #3aafa9;
+    border-radius: 5px;
+    margin-top: 80px;
+    
+  }
+  
+  .section {
+    margin-top: 20px;
+  }
+  p{
+    color: #3aafa9
+    }
+
+  .txthelp{
+    color: #17252a;
+  }
+  h2, h3 {
+    color: #3aafa9;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    color: #17252a;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
